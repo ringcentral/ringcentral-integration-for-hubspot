@@ -1,0 +1,22 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "targets": {
+        "chrome": 58,
+        "node": "current"
+      }
+    }]
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "@babel/plugin-proposal-class-properties",
+    "babel-plugin-lodash",
+    "@babel/plugin-syntax-dynamic-import",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": false
+      }
+    ]
+  ]
+}

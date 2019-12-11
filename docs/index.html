@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="UTF-8"><link href="//developer.ringcentral.com/assets/images/favicon.ico?v=20181214-0738" type="image/x-icon" rel="icon"><link href="//developer.ringcentral.com/assets/images/favicon.ico?v=20181214-0738" type="image/vnd.microsoft.icon" rel="shortcut icon"><title>RingCentral Embeddable Voice</title><style>html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+#app {
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden
+}
+iframe {
+  border: none;
+  height: calc(100% - 36px);
+  width: 100%;
+}
+.rc-tip {
+  padding: 0 5px;
+  margin: 0;
+  margin-top: -5px;
+  height: 28px;
+  line-height: 14px;
+  font-size: 12px;
+}
+.rc-tip a {
+  margin-left: 4px;
+}
+.rc-auth-frame
+.rc-auth-wrap {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.rc-hide-to-side {
+  height: 0;
+}
+.animate {
+  transition: all 0.5s;
+}</style></head><body><div id="app"><iframe id="rc-widget-adapter-frame" src="https://ringcentral.github.io/ringcentral-embeddable/app.html?prefix=RingCentralIntegrationForHubspot-rc&amp;newAdapterUI=1&amp;userAgent=RingCentralIntegrationForHubspot_extension%2F0.2.0&amp;disableActiveCallControl=false&amp;appKey=OxyEdCaWRG2KQsUJy0-u4A&amp;appSecret=D7ePwREoQoq6gRTvTLqeKQmHEVBfQtTKaTqgsPfdhu-Q&amp;appServer=https%3A%2F%2Fplatform.ringcentral.com" sandbox="allow-same-origin allow-scripts allow-forms allow-popups" allow="microphone"></iframe><p class="rc-tip">Recommand use with<a href="https://www.ringcentral.com/apps/hubspot" target="_blank">RingCentral for HubSpot (Community)</a></p></div><div class="animate rc-auth-wrap rc-hide-to-side" id="rc-auth-hs"><iframe class="rc-auth-frame" id="rc-auth-hs-frame" sandbox="allow-scripts allow-forms allow-popups" allow="microphone" src="about:blank"></iframe></div><div class="renewing animate rc-hide-to-side" id="renewing">Loading...</div><script src="./index.js?0.2.0"></script></body></html>

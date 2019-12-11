@@ -1,0 +1,81 @@
+{
+  "name": "ringcentral-integration-for-hubspot",
+  "version": "0.2.0",
+  "description": "RingCentral for hubspot app",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build/clean && ./node_modules/.bin/cross-env NODE_ENV=production ./node_modules/.bin/webpack --progress --display verbose",
+    "start": "./node_modules/.bin/webpack-dev-server --progress --colors --content-base dist/",
+    "serv": "./node_modules/.bin/http-server ./dist -p 6066",
+    "lint": "./node_modules/.bin/standard",
+    "fix": "./node_modules/.bin/standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxdong262/ringcentral-integration-for-hubspot.git"
+  },
+  "keywords": [
+    "RingCentral",
+    "app",
+    "call"
+  ],
+  "author": "Drake.zhao@ringcentral.cm\\om",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zxdong262/ringcentral-integration-for-hubspot/issues"
+  },
+  "homepage": "https://github.com/zxdong262/ringcentral-integration-for-hubspot#readme",
+  "dependencies": {
+    "@hubspot/calling-extensions-sdk": "0.0.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/plugin-proposal-decorators": "7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-transform-runtime": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/register": "7.5.5",
+    "@babel/runtime": "7.5.5",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "8.0.6",
+    "babel-minify-webpack-plugin": "0.3.1",
+    "babel-plugin-import": "1.12.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-minify": "^0.5.0",
+    "concat-loader": "0.1.0",
+    "cross-env": "5.2.0",
+    "css-loader": "3.1.0",
+    "dotenv": "8.0.0",
+    "extract-loader": "3.1.0",
+    "file-loader": "4.1.0",
+    "happypack": "5.0.1",
+    "html-loader": "0.5.5",
+    "http-server": "^0.11.1",
+    "memoize-one": "5.0.5",
+    "mini-css-extract-plugin": "0.8.0",
+    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "pug-html-loader": "1.1.5",
+    "recursive-assign": "^0.2.0",
+    "ringcentral-embeddable-extension-common": "^0.7.0",
+    "shelljs": "0.8.3",
+    "snazzy": "8.0.0",
+    "standard": "^14.3.0",
+    "style-loader": "0.23.1",
+    "stylus": "0.54.5",
+    "stylus-loader": "3.0.2",
+    "url-loader": "2.1.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.7.2"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "docs"
+    ]
+  }
+}
