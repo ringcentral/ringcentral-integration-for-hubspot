@@ -100,6 +100,7 @@ function auth () {
 }
 
 function waitForAuthCode (e) {
+  console.log('waitForAuthCode', e.data)
   const { data } = e
   if (data && data.hsAuthCode) {
     getAuthToken({
