@@ -60,7 +60,7 @@ export default class Fetch {
       timeout: 180000,
       ...options
     }
-    return window.top.fetch(url, body)
+    return window.fetch(url, body)
       .then(res => {
         if (res.status > 304) {
           throw res
