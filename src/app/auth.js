@@ -63,7 +63,6 @@ async function getAuthToken ({
       Accept: 'application/json',
       'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'
     },
-    mode: 'no-cors',
     body: data
   })
 
