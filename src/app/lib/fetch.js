@@ -28,9 +28,7 @@ export async function handleErr (res) {
   console.log(text)
 }
 
-const { Fetch } = window.top
-
-export default class Fetcher {
+export default class Fetch {
   static get (url, options) {
     return Fetch.connect(url, 'get', null, options)
   }
@@ -62,7 +60,7 @@ export default class Fetcher {
       timeout: 180000,
       ...options
     }
-    return window.fetch(url, body)
+    return window.top.fetch(url, body)
       .then(res => {
         if (res.status > 304) {
           throw res
