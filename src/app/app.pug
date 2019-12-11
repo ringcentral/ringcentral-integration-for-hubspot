@@ -52,6 +52,30 @@ html(lang='en')
       .animate {
         transition: all 0.5s;
       }
+      .rc-auth-wrap {
+        position: relative;
+      }
+      .rc-login {
+        user-select: none;
+        user-drag: none;
+        position: absolute;
+        border: none;
+        outline: 0;
+        background-color: #0684bd;
+        color: #fff;
+        border-radius: 3px;
+        width: 80%;
+        height: 32px;
+        line-height: 30px;
+        box-sizing: border-box;
+        top: 40%;
+        left: 50%;
+        margin-top: -15px;
+        margin-left: -40%;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+      }
   body
     #app
       iframe#rc-widget-adapter-frame(src='https://ringcentral.github.io/ringcentral-embeddable/app.html' + appConfigQuery, sandbox='allow-same-origin allow-scripts allow-forms allow-popups', allow='microphone')

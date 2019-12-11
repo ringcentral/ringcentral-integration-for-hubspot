@@ -42,4 +42,28 @@ iframe {
 }
 .animate {
   transition: all 0.5s;
-}</style></head><body><div id="app"><iframe id="rc-widget-adapter-frame" src="https://ringcentral.github.io/ringcentral-embeddable/app.html?prefix=RingCentralIntegrationForHubspot-rc&amp;newAdapterUI=1&amp;userAgent=RingCentralIntegrationForHubspot_extension%2F0.2.0&amp;disableActiveCallControl=false&amp;appKey=OxyEdCaWRG2KQsUJy0-u4A&amp;appSecret=D7ePwREoQoq6gRTvTLqeKQmHEVBfQtTKaTqgsPfdhu-Q&amp;appServer=https%3A%2F%2Fplatform.ringcentral.com" sandbox="allow-same-origin allow-scripts allow-forms allow-popups" allow="microphone"></iframe><p class="rc-tip">Recommand use with<a href="https://www.ringcentral.com/apps/hubspot" target="_blank">RingCentral for HubSpot (Community)</a></p></div><div class="animate rc-auth-wrap rc-hide-to-side" id="rc-auth-hs"><iframe class="rc-auth-frame" id="rc-auth-hs-frame" sandbox="allow-scripts allow-forms allow-popups" allow="microphone" src="about:blank"></iframe></div><div class="renewing animate rc-hide-to-side" id="renewing">Loading...</div><script src="./index.js?0.2.0"></script></body></html>
+}
+.rc-auth-wrap {
+  position: relative;
+}
+.rc-login {
+  user-select: none;
+  user-drag: none;
+  position: absolute;
+  border: none;
+  outline: 0;
+  background-color: #0684bd;
+  color: #fff;
+  border-radius: 3px;
+  width: 80%;
+  height: 32px;
+  line-height: 30px;
+  box-sizing: border-box;
+  top: 40%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -40%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}</style></head><body><div id="app"><iframe id="rc-widget-adapter-frame" src="https://ringcentral.github.io/ringcentral-embeddable/app.html?prefix=RingCentralIntegrationForHubspot-rc&amp;newAdapterUI=1&amp;userAgent=RingCentralIntegrationForHubspot_extension%2F0.2.0&amp;disableActiveCallControl=false&amp;appKey=OxyEdCaWRG2KQsUJy0-u4A&amp;appSecret=D7ePwREoQoq6gRTvTLqeKQmHEVBfQtTKaTqgsPfdhu-Q&amp;appServer=https%3A%2F%2Fplatform.ringcentral.com" sandbox="allow-same-origin allow-scripts allow-forms allow-popups" allow="microphone"></iframe><p class="rc-tip">Recommand use with<a href="https://www.ringcentral.com/apps/hubspot" target="_blank">RingCentral for HubSpot (Community)</a></p></div><div class="animate rc-auth-wrap rc-hide-to-side" id="rc-auth-hs"><button class="rc-login" id="rc-login">Auth with Hubspot</button></div><div class="renewing animate rc-hide-to-side" id="renewing">Loading...</div><script src="./index.js?0.2.0"></script></body></html>

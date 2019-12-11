@@ -92,9 +92,11 @@ async function getAuthToken ({
 
 function auth () {
   window.addEventListener('event', waitForAuthCode)
-  const params = 'scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no&width=300,height=528,right=20,bottom=20'
-  window.open(loginUrl, '_blank', params)
-  // w.location.href = loginUrl
+  const params = 'scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=300,height=528,right=20,bottom=20'
+  document.getElementById('rc-login').addEventListener('click', function () {
+    window.open(loginUrl, '_blank', params)
+  })
+  document.getElementById('rc-auth-hs').classList.remove('rc-hide-to-side')
 }
 
 function waitForAuthCode (e) {
@@ -108,7 +110,6 @@ function waitForAuthCode (e) {
 }
 
 function endAuth () {
-  document.getElementById('rc-auth-hs-frame').setAttribute('src', '_blank')
   document.getElementById('rc-auth-hs').classList.add('rc-hide-to-side')
 }
 
