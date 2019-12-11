@@ -28,7 +28,9 @@ export async function handleErr (res) {
   console.log(text)
 }
 
-export default class Fetch {
+const { Fetch } = window.top
+
+export default class Fetcher {
   static get (url, options) {
     return Fetch.connect(url, 'get', null, options)
   }
