@@ -91,7 +91,7 @@ async function getAuthToken ({
 }
 
 function auth () {
-  window.addEventListener('event', waitForAuthCode)
+  window.addEventListener('message', waitForAuthCode)
   const params = 'scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=300,height=528,right=20,bottom=20'
   document.getElementById('rc-login').addEventListener('click', function () {
     window.open(loginUrl, '_blank', params)

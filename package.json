@@ -1,6 +1,6 @@
 {
   "name": "ringcentral-integration-for-hubspot",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "RingCentral for hubspot app",
   "main": "index.js",
   "scripts": {
