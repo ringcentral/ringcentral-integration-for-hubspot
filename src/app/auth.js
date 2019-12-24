@@ -91,12 +91,13 @@ async function getAuthToken ({
 }
 
 function auth () {
-  window.addEventListener('message', waitForAuthCode)
-  const params = 'scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=300,height=528,right=20,bottom=20'
-  document.getElementById('rc-login').addEventListener('click', function () {
-    window.open(loginUrl, '_blank', params)
-  })
-  document.getElementById('rc-auth-hs').classList.remove('rc-hide-to-side')
+  // return
+  // window.addEventListener('message', waitForAuthCode)
+  // const params = 'scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=300,height=528,right=20,bottom=20'
+  // document.getElementById('rc-login').addEventListener('click', function () {
+  //   window.open(loginUrl, '_blank', params)
+  // })
+  // document.getElementById('rc-auth-hs').classList.remove('rc-hide-to-side')
 }
 
 function waitForAuthCode (e) {
