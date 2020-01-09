@@ -19,7 +19,7 @@
     "app",
     "call"
   ],
-  "author": "Drake.zhao@ringcentral.cm\\om",
+  "author": "Drake Zhao <drake.zhao@ringcentral.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zxdong262/ringcentral-integration-for-hubspot/issues"
