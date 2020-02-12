@@ -19,6 +19,7 @@ jspm_packages
 # config etc
 .idea/
 /config.js
+/temp/
 test/unit/coverage
 test/e2e/reports
 .vscode/
@@ -55,11 +56,22 @@ coverage
 # Dependency directory
 /node_modules/
 
+
 npm-debug.log*
 
 /logs/
 /pids/
 
+tests/e2e/reports/
+
+docs/esdoc
 yarn.lock
+
+fakeDB/
+google.json
 /dist/
-/temp/
+*.sqlite
+*.sqlite-journal
+/deploy/**/*
+!deploy/env.sample.yml
+!deploy/serverless.sample.yml
