@@ -1,4 +1,4 @@
-# ringcentral-integration-for-hubspot
+# RingCentral Integration for HubSpot
 
 App state: WIP.
 
