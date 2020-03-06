@@ -4,3 +4,4 @@
 - Check contact actvity from RingCentral widget.
 - Create phone number from non-HubSpot contact number.
 - Show more contact info when calling.
+- Sync SMS to HubSpot
