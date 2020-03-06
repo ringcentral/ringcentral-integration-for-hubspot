@@ -2,7 +2,7 @@
 
 App state: WIP.
 
-An app to add RingCentral to hubspot, so Hubspot user can call with RingCentral by Click Hubspot call button.
+An app to add RingCentral to HubSpot, so Hubspot user can call with RingCentral by Click HubSpot call button.
 
 It is powered by [Hubspot's calling-extensions-sdk](https://github.com/HubSpot/calling-extensions-sdk).
 
@@ -12,7 +12,7 @@ It is powered by [Hubspot's calling-extensions-sdk](https://github.com/HubSpot/c
 
 ## Use
 
-Just goto Hubspot App marketplace, search `RingCentral`, connect it. then when click call button in Hubspot, you could choose call with RingCentral, check the video for detail.
+Just goto HubSpot App marketplace, search `RingCentral`, connect it. then when click call button in Hubspot, you could choose call with RingCentral, check the video for detail.
 
 ## Experimental Use
 
