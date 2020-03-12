@@ -6,6 +6,8 @@ Make/sync phone calls and send/receive SMS with RingCentral in HubSpot
 
 Visit [https://ringcentral.github.io/apps/hubspot](https://ringcentral.github.io/apps/hubspot) and install, then when click call button in Hubspot, you could choose call with RingCentral, check the video for detail.
 
+Note: **Calling providers is not available to free users**
+
 ## Features
 
 Calls can be made using RingCentral from directly in HubSpot. After each call, the call will be automatically synced to the HubSpot call log for tracking.
@@ -43,3 +45,5 @@ Use the integration to directly call your colleagues in your RingCentral Company
 ### Access RingCentral Meeting
 
 Use the integration to directly shedule RingCentral meeting.
+
+Update bot releated docs
