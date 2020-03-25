@@ -6,6 +6,8 @@ In general, RingCentral for HubSpot Browser extension has more features, we will
 :---------------:|:----------------------------------------------------:|:-----------------------------------------------:
 Type | Browser extension | HubSpot app
 Url | https://www.ringcentral.com/apps/hubspot | https://www.ringcentral.com/apps/call-with-ringcentral-for-hubspot
+Video demo | https://youtu.be/MciDRtxx1VQ | https://youtu.be/1kTrMshj2KU
+Github repo | https://github.com/ringcentral/hubspot-embeddable-ringcentral-phone | https://github.com/ringcentral/ringcentral-integration-for-hubspot
 Call from contact list | YES | NO
 Call from phone numbers in note/log | YES | NO
 Popup contact page when inbound call from contact | YES | NO
