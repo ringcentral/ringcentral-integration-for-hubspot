@@ -6,7 +6,7 @@ In general, RingCentral for HubSpot Browser extension has more features, we will
 :---------------:|:----------------------------------------------------:|:-----------------------------------------------:
 Type | Browser extension | HubSpot app
 Url | https://www.ringcentral.com/apps/hubspot | https://www.ringcentral.com/apps/call-with-ringcentral-for-hubspot
-Video demo | https://youtu.be/2T5F9Y-x63E | https://youtu.be/1kTrMshj2KU
+Video demo | https://youtu.be/ajbipkPd_4Q | https://youtu.be/1kTrMshj2KU
 Github repo | https://github.com/ringcentral/hubspot-embeddable-ringcentral-phone | https://github.com/ringcentral/ringcentral-integration-for-hubspot
 Call from contact list | YES | NO
 Call from phone numbers in note/log | YES | NO
@@ -24,3 +24,7 @@ Check voicemail | YES | YES
 Schedule meeting | YES | YES
 Insert meeting detail to HubSpot meeting form | YES | NO
 Click to open schedule meeting panel | YES | NO
+Auto resync contacts data | YES | NO
+Create new contact from call history | YES | NO
+Take note when calling | YES | YES
+Sync recent updated/created contacts | YES | NO
