@@ -6,11 +6,10 @@ Make/sync phone calls and send/receive SMS with RingCentral in HubSpot
 
 Visit [https://ringcentral.github.io/apps/hubspot](https://ringcentral.github.io/apps/hubspot) and install, then when click call button in Hubspot, you could choose call with RingCentral, check the video for detail.
 
-Note: **Calling providers is not available to free users**
-
 ## Important
 
-**If anyone have problem to see the panel, please reconnect RingCentral from https://ringcentral.github.io/apps/hubspot, then try select HubSpot as call provider and reselect RingCentral as call provider.**
+- **Calling providers is not available to free users**
+- **If anyone have problem to see the panel, please reconnect RingCentral from https://ringcentral.github.io/apps/hubspot, then try select HubSpot as call provider and reselect RingCentral as call provider.**
 
 ## Features
 
