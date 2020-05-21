@@ -8,6 +8,10 @@ Visit [https://ringcentral.github.io/apps/hubspot](https://ringcentral.github.io
 
 Note: **Calling providers is not available to free users**
 
+** Important **
+
+**If anyone have problem to see the panel, please reconnect RingCentral from https://ringcentral.github.io/apps/hubspot, then try select HubSpot as call provider and reselect RingCentral as call provider.**
+
 ## Features
 
 Calls can be made using RingCentral from directly in HubSpot. After each call, the call will be automatically synced to the HubSpot call log for tracking.
