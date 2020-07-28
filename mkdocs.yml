@@ -1,8 +1,8 @@
-site_name: RingCentral Developer FAQ
-site_url: https://developers.ringcentral.com
-site_favicon: favicon.ico
-repo_url: https://github.com/ringcentral/ringcentral-faq
+site_name: RingCentral Integration for HubSpot
+site_url: https://github.com/grokify/ringcentral-integration-for-hubspot
+repo_url: https://github.com/grokify/ringcentral-integration-for-hubspot.git
 docs_dir: docs
+theme: readthedocs
 
 #extra_css: [extra.css]
 #extra_javascript: [fonts.js]
