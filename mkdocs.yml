@@ -9,4 +9,4 @@ theme: readthedocs
 nav:
 - 'Overview': index.md
 - 'Chrome Extension': chrome-extension/index.md
-  - 'Installation': chrome-extension/install.md
+- 'Installation': chrome-extension/install.md
