@@ -7,7 +7,7 @@ The following provides a feature comparision for the two RingCentral HubSpot int
 
 In general, RingCentral for HubSpot Browser extension has more features, we will continue to add more features to both apps, this table will change accorddingly.
 
-| Features       | RingCentral for HubSpot Browser extension (Chrome & Firefox)            |  RingCentral for HubSpot in HubSpot app market |
+| Features | Chrome & Firefox Extensions | Marketplace App |
 :---------------:|:----------------------------------------------------:|:-----------------------------------------------:
 Type | Browser extension | HubSpot app
 Link | [RingCentral App Gallery](https://www.ringcentral.com/apps/hubspot) | [RingCentral App Gallery](https://www.ringcentral.com/apps/call-with-ringcentral-for-hubspot)
