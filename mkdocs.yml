@@ -15,3 +15,5 @@ nav:
 - 'Browser Extension':
     - 'Overview': browser-extension/index.md
     - 'Installation': browser-extension/install.md
+    - 'Customization': browser-extension/developers.md
+    - 'About the Extension': browser-extension/about.md
