@@ -1,0 +1,80 @@
+site_name: RingCentral Engage Voice Developer Guide
+site_url: https://engage-voice-api-docs.rtfd.org
+site_favicon: favicon.ico
+repo_url: https://github.com/ringcentral/ringcentral-integration-for-hubspot
+docs_dir: docs
+theme:
+  name: ringcentral
+  product_section: engage
+  fluid_layout: True
+  suppress_nextprev: true
+  shortcuts:
+    - foo
+
+plugins:
+  - git-committers:
+      repository: ringcentral/ringcentral-integration-for-hubspot
+      branch: master
+  - bootstrap-tables
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.tabbed
+  - pymdownx.superfences:
+       disable_indented_code_blocks: true
+  - pymdownx.highlight
+  - markdown_include.include:
+       base_path: docs
+
+#extra_css: [extra.css]
+#extra_javascript: [fonts.js]
+pages:
+- 'Overview':
+  - 'Analytics':
+    - 'Overview': analytics/index.md
+    - 'Cloud Reports':
+      - 'Call Detail': analytics/reports/call-detail-report.md
+    - 'Realtime Reports':
+      - 'Agent Session': analytics/reports/agent-session-report.md
+      - 'Call Details and Recordings': analytics/reports/global-call-type-detail-report.md
+  - 'Routing':
+    - 'Overview': routing/index.md
+    - 'Getting Started':
+      - 'Node JS': routing/quick-start/node.md
+      - 'Python': routing/quick-start/python.md
+      - 'PHP': routing/quick-start/php.md
+    - 'Queues':
+      - 'Queues': routing/queues/queues.md
+      - 'Queue Events': routing/queues/queue-events.md
+      - 'Queue Groups': routing/queues/queue-groups.md
+      - 'Group Skills': routing/queues/group-skills.md
+    - 'Tutorials':
+      - 'IVR DNC List': https://ringcentral-tutorials.github.io/dnc-via-ivr-rest-demo
+  - 'Dialing':
+    - 'Overview': dialing/index.md
+    - 'Getting Started':
+      - 'Node JS': dialing/quick-start/node.md
+      - 'Python': dialing/quick-start/python.md
+      - 'PHP': dialing/quick-start/php.md
+    - 'Campaigns':
+      - 'Dial Groups': dialing/campaigns/dial-groups.md
+      - 'Campaigns': dialing/campaigns/campaigns.md
+    - 'Leads':
+      - 'Bulk Import Leads': dialing/leads/bulk-import.md
+      - 'Searching Leads': dialing/leads/search.md
+    - 'Active Calls':
+      - 'Active Calls': dialing/active-calls/index.md
+      - 'Getting Started':
+        - 'Node JS': dialing/active-calls/quick-start/node.md
+        - 'PHP': dialing/active-calls/quick-start/php.md
+        - 'Python': dialing/active-calls/quick-start/python.md
+      #- 'List Active Calls': dialing/activecalls/list-activecalls.md
+  - 'Users':
+    - 'Overview': users/agents/index.md
+    - 'Agents':
+      - 'Agents': users/agents/agents.md
+      - 'Agent Groups': users/agents/agent-groups.md
+      - 'Skill Profiles': users/agents/skill-profile.md
+- 'Secondary':
