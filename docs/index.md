@@ -8,4 +8,4 @@ RingCentral has 3 HubSpot Integrations:
 
 The Marketplace App and Browser Extensions behave slightly differently and have different features.
 
-A [feature comparsion is available comparign the native and Chrome extension integrations](features-compare.md)
+A [feature comparsion is available comparing the Marketplace App and Browser Extensions](features-compare.md).
