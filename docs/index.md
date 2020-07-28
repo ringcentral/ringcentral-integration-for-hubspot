@@ -1,30 +1,10 @@
-no_breadcrumb: true
+# Getting Started
 
-# RingCentral Developer FAQ
+RingCentral has 2 HubSpot Integrations:
 
-<!-- TEST COMMENT -->
+* **App Marketplace:** This is an integration that supports the pre-defined functionaly specified by the HubSpot CTI Framework. Overall, it provides a smooth integration but is limited in functionality to what the CTI Framework supports. It is calld the App Marketplace integration because it is installed via the HubSpot App Marketplace here. [Get the HubSpot App Marketplace app via the RingCentral App Gallery](https://www.ringcentral.com/apps/call-with-ringcentral-for-hubspot)
+* **Chrome Extension:** The Chrome Extension integration is a Chrome extension that provides a richer set of functionality for Chrome browser users. This extension needs to be installed in Chrome using the Extension Manager. [Get the HubSpot Chrome Extension via the RingCentral App Gallery](https://www.ringcentral.com/apps/hubspot)
 
-This FAQ provides answers to commonly asked questions covering our APIs and solution suite including how our APIs interact with our endpoint applications (mobile, desktop, and web).
+These two integrations behave slightly differently and have different features.
 
-## New to RingCentral?
-
-If you are new to RingCentral, or working on the API for the first time, we recommend you consult the RingCentral Developer Guide to get started.
-
-<a class="btn btn-primary btn-lg" href="https://developers.ringcentral.com/guide/">Visit the Developer Guide &raquo;</a>
-
-In addition, the following resources may also be of assistance:
-
-* [Developer Guide](https://developers.ringcentral.com/guide/)
-* [API Explorer](https://developers.ringcentral.com/api-reference/)
-* [SDKs](https://developers.ringcentral.com/library/sdks.html)
-
-## Featured Topics
-
-Some of our more frequently visited FAQ topics include:
-
-* [Authorization](oauth.md)
-* [SMS](sms/)
-* [Call Log](call-log/)
-* [Webhooks](webhooks/)
-
-Browse all of our topics using the links to the left.
+A [feature comparsion is available comparign the native and Chrome extension integrations](features-compare.md)
