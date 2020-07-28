@@ -1,6 +1,3 @@
-#sidebar-nav .nav-item > a.nav-link {
-    padding-left: 0;
-}
 .wy-nav-top {
 	background-color: #fff;
 	color: #0073ae;
@@ -18,8 +15,8 @@
     background-size: initial;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
-    box-shadow: none;
-    padding-left: 25px;
+	box-shadow: none;
+	padding-left: 25px;
 }
 
 .wy-side-nav-search>a {
@@ -180,6 +177,7 @@
 }
 
 body {
+    font-size: 12px;
     font-family: "Lato",Helvetica,Arial,sans-serif;
 	font-weight: 200;
     color: #585858;
