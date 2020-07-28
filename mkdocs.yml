@@ -8,21 +8,5 @@ theme: readthedocs
 #extra_javascript: [fonts.js]
 pages:
 - 'Overview': index.md
-- 'Basics': basics.md
-- 'Developer Console': console.md
-- 'Authentication & Authorization': oauth.md
-- 'Account Info': account.md
-- 'Voice and Telephony': voice_ringout.md
-- 'WebRTC': voice_webrtc.md
-- 'Call Recording': voice_recording.md
-- 'SMS': sms.md
-- 'Fax': fax.md
-- 'Call Log': call_log.md
-- 'Events and Notifications': notifications_subscriptions.md
-- 'Webhooks': webhooks.md
-- 'Integration': integration.md
-- 'Errors': errors.md
-- 'Usage Plans': api_usage_plan.md
-- 'Phone Numbers': phone_numbers.md
-- 'SDKs': sdks_programming.md
-
+- 'Chrome Extension': chrome-extension/index.md
+  - 'Installation': chrome-extension/install.md
