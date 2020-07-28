@@ -2,17 +2,17 @@
 
 The following provides a feature comparision for the two RingCentral HubSpot integrations:
 
-* App Market Integration
-* Chrome Browser Extension
+* Marketplace App
+* Browser Extension (Chrome & Firefox)
 
 In general, RingCentral for HubSpot Browser extension has more features, we will continue to add more features to both apps, this table will change accorddingly.
 
-| Features       | RingCentral for HubSpot Browser extension            |  RingCentral for HubSpot in HubSpot app market |
+| Features       | RingCentral for HubSpot Browser extension (Chrome & Firefox)            |  RingCentral for HubSpot in HubSpot app market |
 :---------------:|:----------------------------------------------------:|:-----------------------------------------------:
 Type | Browser extension | HubSpot app
-Link | https://www.ringcentral.com/apps/hubspot | https://www.ringcentral.com/apps/call-with-ringcentral-for-hubspot
-Video demo | https://youtu.be/ajbipkPd_4Q | https://youtu.be/1kTrMshj2KU
-Github repo | https://github.com/ringcentral/hubspot-embeddable-ringcentral-phone | https://github.com/ringcentral/ringcentral-integration-for-hubspot
+Link | [RingCentral App Gallery](https://www.ringcentral.com/apps/hubspot) | [RingCentral App Gallery](https://www.ringcentral.com/apps/call-with-ringcentral-for-hubspot)
+Video demo | [YouTube](https://youtu.be/ajbipkPd_4Q) | [YouTube](https://youtu.be/1kTrMshj2KU)
+Github repo | [hubspot-embeddable-ringcentral-phone](https://github.com/ringcentral/hubspot-embeddable-ringcentral-phone) | [ringcentral-integration-for-hubspot](https://github.com/ringcentral/ringcentral-integration-for-hubspot)
  | **Call Features** | 
 Call from contact page | YES [Screenshot](screenshots/hs-click-to-call-min.png) | YES [Screenshot](screenshots/hsi-click-2-call-min.png)
 Call from contact list | YES [Screenshot](screenshots/hs-call-from-contact-list-min.png) | NO
