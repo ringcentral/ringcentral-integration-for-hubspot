@@ -7,6 +7,11 @@ theme: readthedocs
 #extra_css: [extra.css]
 #extra_javascript: [fonts.js]
 nav:
-- 'Overview': index.md
-- 'Chrome Extension': chrome-extension/index.md
-- 'Installation': chrome-extension/install.md
+- 'Overview':
+    - 'Getting Started': index.md
+    - 'Comparison': features-compare.md
+- 'Marketplace App':
+    - 'Overview': marketplace-app/index.md
+- 'Browser Extension':
+    - 'Overview': browser-extension/index.md
+    - 'Installation': browser-extension/install.md
