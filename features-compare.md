@@ -13,7 +13,7 @@ Type | Browser extension | HubSpot app
 Link | https://www.ringcentral.com/apps/hubspot | https://www.ringcentral.com/apps/call-with-ringcentral-for-hubspot
 Video demo | https://youtu.be/ajbipkPd_4Q | https://youtu.be/1kTrMshj2KU
 Github repo | https://github.com/ringcentral/hubspot-embeddable-ringcentral-phone | https://github.com/ringcentral/ringcentral-integration-for-hubspot
-**Call Features** | |
+<td colspan=3>**Call Features**
 Call from contact list | YES [Screenshot](screenshots/hs-call-from-contact-list-min.png) | NO
 Call from phone numbers in note/log | YES [Screenshot](screenshots/hs-call-from-call-log-min.png) | NO
 Popup contact page when inbound call from contact | YES [Video](https://youtu.be/ajbipkPd_4Q?t=298) | NO
