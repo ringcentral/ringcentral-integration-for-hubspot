@@ -6,7 +6,7 @@ theme: readthedocs
 
 #extra_css: [extra.css]
 #extra_javascript: [fonts.js]
-pages:
+nav:
 - 'Overview': index.md
 - 'Chrome Extension': chrome-extension/index.md
   - 'Installation': chrome-extension/install.md
