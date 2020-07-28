@@ -7,4 +7,4 @@ RingCentral has 2 HubSpot Integrations:
 
 These two integrations behave slightly differently and have different features.
 
-A [feature comparsion is available comparign the native and Chrome extension integrations](https://github.com/ringcentral/ringcentral-integration-for-hubspot/blob/master/features-compare.md)
+A [feature comparsion is available comparign the native and Chrome extension integrations](features-compare.md)
