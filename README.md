@@ -14,7 +14,7 @@ Visit [https://ringcentral.github.io/apps/hubspot](https://ringcentral.github.io
 
 ## Features
 
-Calls can be made using RingCentral from directly in HubSpot. After each call, the call will be automatically synced to the HubSpot call log for tracking.
+Calls can be made using RingCentral from directly in HubSpot. After each call, the call will be automatically synced to the HubSpot call log for tracking. It also works as conference integration for HubSpot when enabled in [install page](https://ringcentral.github.io/apps/hubspot).
 
 You can follow our feature roadmap for this integration here:
 
@@ -24,7 +24,7 @@ We also have RingCentral for Browser extension which provide some additional fea
 
 It is powered by [Hubspot's calling-extensions-sdk](https://github.com/HubSpot/calling-extensions-sdk).
 
-## Video preview
+## Video Demo
 
 [https://youtu.be/Jug5NL4B_AA](https://youtu.be/Jug5NL4B_AA)
 
