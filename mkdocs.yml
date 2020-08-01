@@ -1,19 +1,33 @@
 site_name: RingCentral Integration for HubSpot
-site_url: https://github.com/grokify/ringcentral-integration-for-hubspot
-repo_url: https://github.com/grokify/ringcentral-integration-for-hubspot.git
+site_url: https://github.com/ringcentral/ringcentral-integration-for-hubspot
+repo_url: https://github.com/ringcentral/ringcentral-integration-for-hubspot.git
+edit_uri: tree/master/docs
 docs_dir: docs
-theme: readthedocs
 
-#extra_css: [extra.css]
-#extra_javascript: [fonts.js]
-nav:
-- 'Overview':
+plugins:
+  - git-committers:
+      repository: ringcentral/ringcentral-integration-for-hubspot
+      branch: master
+  - bootstrap-tables
+
+theme:
+  name: ringcentral
+  fluid_layout: True
+  suppress_nextprev: true
+  shortcuts:
+    - foo
+
+pages:
+- 'Primary':
+  - 'Overview':
     - 'Getting Started': index.md
     - 'Comparison': features-compare.md
-- 'Marketplace App':
+  - 'Marketplace App':
     - 'Overview': marketplace-app/index.md
-- 'Browser Extension':
+  - 'Browser Extension':
     - 'Overview': browser-extension/index.md
     - 'Installation': browser-extension/install.md
     - 'Customization': browser-extension/developers.md
     - 'About the Extension': browser-extension/about.md
+- 'Secondary':
+  - 'RingCentral Labs': labs.md
