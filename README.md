@@ -8,13 +8,13 @@ Visit [https://ringcentral.github.io/apps/hubspot](https://ringcentral.github.io
 
 ## Important & FAQs
 
-- **Calling providers is not available to free users**
+- **Not available to free HubSpot users**
 - **If anyone have problem to see the panel, please reconnect RingCentral from https://ringcentral.github.io/apps/hubspot, then try select HubSpot as call provider and reselect RingCentral as call provider.**
 - **For Safari 13+ user, must disable `Prevent cross-site tracking` in `Prefrence->Privacy`**
 
 ## Features
 
-Calls can be made using RingCentral from directly in HubSpot. After each call, the call will be automatically synced to the HubSpot call log for tracking.
+Calls can be made using RingCentral from directly in HubSpot. After each call, the call will be automatically synced to the HubSpot call log for tracking. It also works as conference integration for HubSpot when enabled in [install page](https://ringcentral.github.io/apps/hubspot).
 
 You can follow our feature roadmap for this integration here:
 
@@ -24,9 +24,9 @@ We also have RingCentral for Browser extension which provide some additional fea
 
 It is powered by [Hubspot's calling-extensions-sdk](https://github.com/HubSpot/calling-extensions-sdk).
 
-## Video preview
+## Video Demo
 
-[https://youtu.be/1kTrMshj2KU](https://youtu.be/1kTrMshj2KU)
+[https://youtu.be/Jug5NL4B_AA](https://youtu.be/Jug5NL4B_AA)
 
 ## How RingCentral integrates with HubSpot
 

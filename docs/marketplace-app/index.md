@@ -28,7 +28,7 @@ It is powered by [Hubspot's calling-extensions-sdk](https://github.com/HubSpot/c
 
 ## Video preview
 
-[https://youtu.be/1kTrMshj2KU](https://youtu.be/1kTrMshj2KU)
+[https://youtu.be/Jug5NL4B_AA](https://youtu.be/Jug5NL4B_AA)
 
 ## How RingCentral integrates with HubSpot
 
