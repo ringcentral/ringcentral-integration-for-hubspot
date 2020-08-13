@@ -1,16 +1,22 @@
 # RingCentral Integration for HubSpot
 
-Make/sync phone calls and send/receive SMS with RingCentral in HubSpot
+Make/sync phone calls, send SMS and schedule meetings with RingCentral in HubSpot.
 
 ## Use
 
-Visit [https://ringcentral.github.io/apps/hubspot](https://ringcentral.github.io/apps/hubspot) and install, then when click call button in Hubspot, you could choose call with RingCentral, check the video for detail.
+- Visit [https://ringcentral.github.io/apps/hubspot](https://ringcentral.github.io/apps/hubspot) and install, then when click call button in Hubspot, you could choose call with RingCentral, check the video for detail.
+- After installation, user would be able to choose RingCentral as call provider.
+- After installation, Every user who want to use RingCentral as conference integration still need to authorize, click the **Enable RingCentral as HubSpot conference/SMS integration** button to get authorize url and share with your team members.</li>
+- To use RingCentral as SMS integration, every single user who is contact owner(SMS will be sent by owner's RingCentral account) need to authorize, click the **Enable RingCentral as HubSpot conference/SMS integration** button to get authorize url and share with your team members.
 
-## Important & FAQs
+## Important & Trouble shooting
 
-- **Not available to free HubSpot users**
-- **If anyone have problem to see the panel, please reconnect RingCentral from https://ringcentral.github.io/apps/hubspot, then try select HubSpot as call provider and reselect RingCentral as call provider.**
+- **Not available to free HubSpot users.**
+- **Only HubSpot super admin user can install.**
+- **Team member's HubSpot id must be the same as Team member's RingCentral account email.**
 - **For Safari 13+ user, must disable `Prevent cross-site tracking` in `Prefrence->Privacy`**
+- **If anyone have problem to see the panel, please reconnect RingCentral from https://ringcentral.github.io/apps/hubspot, then try select HubSpot as call provider and reselect RingCentral as call provider.**
+- **If encounter any conference or SMS integration error, you may try redo authorize RingCentral account. Click the **Enable RingCentral as HubSpot conference/SMS integration** button from install page to get authorize url**
 
 ## Features
 
@@ -49,5 +55,3 @@ Use the integration to directly call your colleagues in your RingCentral Company
 ### Access RingCentral Meeting
 
 Use the integration to directly shedule RingCentral meeting.
-
-Update bot releated docs
