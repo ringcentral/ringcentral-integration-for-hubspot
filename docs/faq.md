@@ -26,40 +26,40 @@ Yes, if the user has calling privileges on multiple numbers, those numbers will 
 
 This is supported in all 3 apps.
 
-# 4. Have a method to log/record incoming calls within HubSpot?
+## 4. Have a method to log/record incoming calls within HubSpot?
 
 Yes, logging incoming calls within HubSpot is supported.
 
 * Browser Extension users can log/record incoming calls within HubSpot.
 * Marketplace App users cannot currently receive inbound queue calls since the HubSpot Calling SDK only supports inbound calls.
 
-# 5. Manage any reporting outside of HubSpot?
+## 5. Manage any reporting outside of HubSpot?
 
 Yes, call logs are kept in RingCentral and can be seen in the RingCentral Online Account and Analytics Portals. RingCentral additionally has APIs where this data can be migreated to 3rd party solutions.
 
-# 6. Log activity on HubSpot contact record?
+## 6. Log activity on HubSpot contact record?
 
 Yes, RingCentral Marketplace and Browser apps can log activty to a contact record.
 
-# 7. Support meeting scheduling/recording?
+## 7. Support meeting scheduling/recording?
 
 Yes, meeting scheduling, recporing and syncing is available in both the Marketplace App and the Browser Extension.
 
-# 8. Support SMS or messaging?
+## 8. Support SMS or messaging?
 
 Yes, SMS text messaging can be sent and received.
 
 * Marketplace App additionally supports Workflow Actions with RingCentral SMS
 * Browser Extension supports a built-in chat messaging UI
 
-# 9. Support video conferencing?
+## 9. Support video conferencing?
 
 Yes, RingCentral has two Video Conferencing options, RingCenral Video and RingCentral Meetings. Both are supported for the Marketplace App and Browser Extension.
 
 * Marketplace App can support scheduling meetings with a meeting URL
 * Browser Extension can scheudle meetings swith additional informration such as dial in information. Browser Extension also supports logging video meeting sincluding adding recording links into HubSpot.
 
-# 10. Support international calling?
+## 10. Support international calling?
 
 Yes, RingCentral accounts support international calling including inbound, outbound, and international numbers.
 
@@ -68,6 +68,6 @@ Information on Interntional Njumber support can be seen here:
 * [International Calling](https://support.ringcentral.com/s/article/International-Calling-Overview?language=en_US)
 * [International Numbers](https://support.ringcentral.com/s/article/International-Numbers-Supported-Countries?language=en_US)
 
-# 11. Does your calling service specialize in any regional/country specific calling we should note?
+## 11. Does your calling service specialize in any regional/country specific calling we should note?
 
 RingCentral supports Emergency Service dialing in multiple countries including US, Canada, UK, etc.
