@@ -11,7 +11,7 @@ In general, RingCentral for HubSpot Browser extension has more features, we will
 :---------------:|:----------------------------------------------------:|:-----------------------------------------------:
 Type | Browser extension | HubSpot app
 Link | [RingCentral App Gallery](https://www.ringcentral.com/apps/hubspot) | [RingCentral App Gallery](https://www.ringcentral.com/apps/call-with-ringcentral-for-hubspot)
-Video demo | [YouTube](https://youtu.be/ajbipkPd_4Q) | [YouTube](https://youtu.be/Jug5NL4B_AA)
+Video demo | [YouTube](https://youtu.be/ajbipkPd_4Q) | [YouTube](https://youtu.be/Cpyei9uhHKI)
 Github repo | [hubspot-embeddable-ringcentral-phone](https://github.com/ringcentral/hubspot-embeddable-ringcentral-phone) | [ringcentral-integration-for-hubspot](https://github.com/ringcentral/ringcentral-integration-for-hubspot)
  | **Call Features** | 
 Call from contact page | YES [Screenshot](screenshots/hs-click-to-call-min.png) | YES [Screenshot](screenshots/hsi-click-2-call-min.png)
