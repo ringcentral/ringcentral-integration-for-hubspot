@@ -11,14 +11,14 @@ An integration is being developed for RingCentral Engage Voice and is not curren
 
 ## 1. Is Voicemail Drop supported?
 
-No, Voicemail Drop is not curently supported by RingCentral Office.
+No, Voicemail Drop is not currently supported by RingCentral Office.
 
 ## 2. Provide a Calling Queue?
 
-Yes, RingCentral Office hass both Call Queues.
+Yes, RingCentral Office has both Call Queues.
 
 * Browser Extension users can be queue members, and receive incoming calls within HubSpot.
-* Marketplace App users cannot currently receive inbound queue calls since the HubSpot Calling SDK only supports inbound calls.
+* Marketplace App users cannot currently receive inbound queue calls since the HubSpot Calling SDK only supports outbound calls.
 
 ## 3. Dynamically change numbers?
 
@@ -31,19 +31,19 @@ This is supported in all 3 apps.
 Yes, logging incoming calls within HubSpot is supported.
 
 * Browser Extension users can log/record incoming calls within HubSpot.
-* Marketplace App users cannot currently receive inbound queue calls since the HubSpot Calling SDK only supports inbound calls.
+* Marketplace App users cannot currently receive inbound queue calls since the HubSpot Calling SDK only supports outbound calls.
 
 ## 5. Manage any reporting outside of HubSpot?
 
-Yes, call logs are kept in RingCentral and can be seen in the RingCentral Online Account and Analytics Portals. RingCentral additionally has APIs where this data can be migreated to 3rd party solutions.
+Yes, call logs are kept in RingCentral and can be seen in the RingCentral Online Account and Analytics Portals. RingCentral additionally has APIs where this data can be migrated to 3rd party solutions.
 
 ## 6. Log activity on HubSpot contact record?
 
-Yes, RingCentral Marketplace and Browser apps can log activty to a contact record.
+Yes, RingCentral Marketplace and Browser apps can log activity to a contact record.
 
 ## 7. Support meeting scheduling/recording?
 
-Yes, meeting scheduling, recporing and syncing is available in both the Marketplace App and the Browser Extension.
+Yes, meeting scheduling, recording and syncing is available in both the Marketplace App and the Browser Extension.
 
 ## 8. Support SMS or messaging?
 
@@ -54,16 +54,16 @@ Yes, SMS text messaging can be sent and received.
 
 ## 9. Support video conferencing?
 
-Yes, RingCentral has two Video Conferencing options, RingCenral Video and RingCentral Meetings. Both are supported for the Marketplace App and Browser Extension.
+Yes, RingCentral has two Video Conferencing options, RingCentral Video and RingCentral Meetings. Both are supported for the Marketplace App and Browser Extension.
 
 * Marketplace App can support scheduling meetings with a meeting URL
-* Browser Extension can scheudle meetings swith additional informration such as dial in information. Browser Extension also supports logging video meeting sincluding adding recording links into HubSpot.
+* Browser Extension can schedule meetings with additional information such as dial in information. Browser Extension also supports logging video meeting including adding recording links into HubSpot.
 
 ## 10. Support international calling?
 
 Yes, RingCentral accounts support international calling including inbound, outbound, and international numbers.
 
-Information on Interntional Njumber support can be seen here:
+Information on International Number support can be seen here:
 
 * [International Calling](https://support.ringcentral.com/s/article/International-Calling-Overview?language=en_US)
 * [International Numbers](https://support.ringcentral.com/s/article/International-Numbers-Supported-Countries?language=en_US)
