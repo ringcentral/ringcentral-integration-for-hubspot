@@ -15,7 +15,7 @@ No, Voicemail Drop is not currently supported by RingCentral Office.
 
 ## 2. Provide a Calling Queue?
 
-Yes, RingCentral Office has both Call Queues.
+Yes, RingCentral Office has Call Queues.
 
 * Browser Extension users can be queue members, and receive incoming calls within HubSpot.
 * Marketplace App users cannot currently receive inbound queue calls since the HubSpot Calling SDK only supports outbound calls.
@@ -24,7 +24,7 @@ Yes, RingCentral Office has both Call Queues.
 
 Yes, if the user has calling privileges on multiple numbers, those numbers will be selectable from the UI.
 
-This is supported in all 3 apps.
+This is supported in both Marketplace and Browser apps.
 
 ## 4. Have a method to log/record incoming calls within HubSpot?
 
