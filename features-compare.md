@@ -25,7 +25,7 @@ Take note when calling | YES [Screenshot](screenshots/hs-show-name-min.png) | YE
 Auto sync call log when call ends | YES [Video](https://youtu.be/ajbipkPd_4Q?t=158) | YES [Video](https://youtu.be/oZngYfBMOLc)
 Mannully sync call log | YES [Video](https://youtu.be/ajbipkPd_4Q?t=98) | NO
 Auto sync SMS/Voicemail log | YES [Video](https://youtu.be/ajbipkPd_4Q?t=316) | NO
-Mannully sync SMS/Voicemail log | YES [Video](https://youtu.be/ajbipkPd_4Q?t=145) | NO
+Manually sync SMS/Voicemail log | YES [Video](https://youtu.be/ajbipkPd_4Q?t=145) | NO
 Send SMS | YES [Screenshot](screenshots/hs-sms-min.png) | YES [Screenshot](screenshots/hsi-send-sms-min.png)
 Check voicemail | YES [Screenshot](screenshots/hs-check-vm-min.png) | YES [Screenshot](screenshots/hsi-check-vm-min.png)
  | **Video Meeting Features** |
