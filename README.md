@@ -4,6 +4,8 @@ Make/sync phone calls, send SMS and schedule meetings with RingCentral in HubSpo
 
 ## Use
 
+The best way is watch our video, it will show every step of installation and all features: [https://youtu.be/Jug5NL4B_AA](https://youtu.be/Jug5NL4B_AA)
+
 - Visit [https://ringcentral.github.io/apps/hubspot](https://ringcentral.github.io/apps/hubspot) and install, then when click call button in Hubspot, you could choose call with RingCentral, check the video for detail.
 - After installation, user would be able to choose RingCentral as call provider.
 - After installation, Every user who want to use RingCentral as conference integration still need to authorize, click the **Enable RingCentral as HubSpot conference/SMS integration** button to get authorize url and share with your team members.</li>
@@ -31,6 +33,8 @@ We also have RingCentral for Browser extension which provide some additional fea
 It is powered by [Hubspot's calling-extensions-sdk](https://github.com/HubSpot/calling-extensions-sdk).
 
 ## Video Demo
+
+Video demo will show every step of installation and all features.
 
 [https://youtu.be/Jug5NL4B_AA](https://youtu.be/Jug5NL4B_AA)
 
