@@ -26,11 +26,12 @@ Auto sync call log when call ends | YES [Video](https://youtu.be/ajbipkPd_4Q?t=1
 Mannully sync call log | YES [Video](https://youtu.be/ajbipkPd_4Q?t=98) | NO
 Auto sync SMS/Voicemail log | YES [Video](https://youtu.be/ajbipkPd_4Q?t=316) | NO
 Mannully sync SMS/Voicemail log | YES [Video](https://youtu.be/ajbipkPd_4Q?t=145) | NO
+Send SMS in HubSpot workflow | NO | YES [Video](https://youtu.be/Cpyei9uhHKI)
 Send SMS | YES [Screenshot](screenshots/hs-sms-min.png) | YES [Screenshot](screenshots/hsi-send-sms-min.png)
 Check voicemail | YES [Screenshot](screenshots/hs-check-vm-min.png) | YES [Screenshot](screenshots/hsi-check-vm-min.png)
  | **Video Meeting Features** |
 Schedule meeting | YES [Video](https://youtu.be/ajbipkPd_4Q?t=356) | YES [Screenshot](screenshots/hsi-rcv-min.png)
-Insert meeting detail to HubSpot meeting form | YES [Video](https://youtu.be/2T5F9Y-x63E?t=364) | NO [WIP](https://youtu.be/SQknT_A7jA0)
+Insert meeting detail to HubSpot meeting form | YES [Video](https://youtu.be/2T5F9Y-x63E?t=364) | YES [Video](https://youtu.be/Cpyei9uhHKI)
 Click to open schedule meeting panel | YES [Video](https://youtu.be/ajbipkPd_4Q?t=356) | NO
  | **Contacts Features** |
 Auto resync contacts data | YES [Screenshot](screenshots/hs-resync-contacts-min.png) | NO
