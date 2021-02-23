@@ -15,6 +15,7 @@ Video demo | https://youtu.be/ajbipkPd_4Q | https://youtu.be/Jug5NL4B_AA | - | -
 Github repo | https://github.com/ringcentral/hubspot-embeddable-ringcentral-phone | https://github.com/ringcentral/ringcentral-integration-for-hubspot (for issue tracking only, no code) | - | -
  | **Call Features** | 
 Call from contact page | YES [Screenshot](screenshots/hs-click-to-call-min.png) | YES [Screenshot](screenshots/hsi-click-2-call-min.png) | YES | YES
+Support inbound call | YES | NO | NO | YES
 Create call log right away after call ends | NO | YES | YES | YES
 Update call log in server side(user do not need to wait in current page) | NO | NO | YES | YES
 Call from contact list | YES [Screenshot](screenshots/hs-call-from-contact-list-min.png) | NO | NO | YES
