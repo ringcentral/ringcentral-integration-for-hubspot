@@ -24,4 +24,4 @@ Currently we have 3 RingCentral for HubSpot integrations:
 
 * Official project(official customer service)
 * Support inbound/outbound calls and call log
-* **Do not support inline call recording playback (please use the call recording link)** *
+* **Do not support inline call recording playback (please use the call recording link)**
