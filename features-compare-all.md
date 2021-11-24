@@ -17,9 +17,11 @@ Currently we have 3 RingCentral for HubSpot integrations:
 * Community project
 * Support inbound/outbound calls and call log
 * Support SMS and log as custom event
+* Supports both inline call recording playback and call recording link
 
 ------
 ### Official RingCentral for HubSpot integration: https://www.ringcentral.com/apps/hubspot-integration
 
 * Official project(official customer service)
 * Support inbound/outbound calls and call log
+* **Do not support inline call recording playback (please use the call recording link)** *
